@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="nl">
+
+<head>
+    <title>Drag & Drop</title>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/dragdrop.css" />
+    <script src="../js/mouseTracker.js"></script>
+</head>
+
+<body>
+    <div id="container" style="position:relative;">
+        <div id="div1" style="position:absolute; top:0; left:0;">
+            MousePos:<br>
+            <span id="textMouseX">X: </span><br>
+            <span id="textMouseY">Y: </span>
+        </div>
+        
+        <div id="DraggableUI" style="top:0; left:0;" 
+            >
+            <div id="mover" style="top: 100; left: 100;" 
+            onmousedown="DragMouseDown(event)" onmouseup="DragMouseUp()">
+
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
