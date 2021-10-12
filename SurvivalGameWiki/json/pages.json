@@ -1,0 +1,20 @@
+{
+    "categories": {
+        "environment": {
+            "trees": [
+                "oak_tree"
+            ]
+        },
+        "materials": [
+            "stone",
+            "wood"
+        ],
+        "tools": {
+            "stone_tools": [
+                "stone_pickaxe",
+                "stone_axe",
+                "stone_sword"
+            ]
+        }
+    }
+}

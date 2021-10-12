@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <title>Stone</title>
+    <meta charset="UTF-8">
+
+    <!-- CSS -->
+    <link rel="stylesheet" type="text/css" href="../css/main.css" />
+    <link rel="stylesheet" type="text/css" href="../css/navigation.css" />
+    <link rel="stylesheet" type="text/css" href="../css/wiki.css" />
+
+    <!-- JS -->
+    <script src="../js/page.js"></script>
+</head>
+
+<style>
+    .content {
+        padding: 20px 20px 20px 20px;
+    }
+
+    .item_info_container {
+        width: 250px;
+        height: 200px;
+        border: 1px solid gray;
+        border-radius: 6px;
+    }
+
+    .item_info_box {
+        margin: 10px;
+    }
+
+    .item_info_header {
+        align-content: center;
+        font-weight: bold;
+        font-size: 16px;
+    }
+
+    .item_image {
+        width: 32px;
+        height: 32px;
+        vertical-align: middle;
+    }
+
+    table {
+        border-collapse: collapse;
+        border: solid gray 1px;
+    }
+
+    tr {
+        
+    }
+
+    th {
+        font-weight: normal;
+        text-align: center;
+        border: solid gray 1px;
+    }
+
+    td {
+        border: solid gray 1px;
+    }
+
+    .subtitle {
+    font-size: 26px;
+}
+</style>
+
+<body>
+
+    <div id="navigation">
+        <div class="navImageBorder">
+            <img src="../images/square.png" class="navImage">
+            <div class="navWikiInfo">
+                <span class="navTitle">Gamename Wiki</span><br>
+                <div class="navSeacrhBar">
+                    <img src="../images/square.png" class="navSearchIcon">
+                    <input type="text" class="navSearchBarInput" placeholder="Search GameName Wiki...">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="content">
+        <span class="headertext">Stone</span>
+        <div class="line"></div>
+        <div class="textblock">
+            Stone can be obtained by mining <a href="rock.html">rocks</a> or finding stones near a <a href="rock.html">rock</a>.
+        </div>
+
+        <div class="item_info_container">
+            <div class="item_info_box">
+                <center>
+                    <span class="item_info_header">Stone</span>
+                    <div class="line"></div>
+                    <img src="../images/square.png" class="item_image"><br><br>
+                    
+                    <span>Statistics</span>
+                    <div class="line"></div>
+                    Type: Block<br>
+
+                </center>
+            </div>
+        </div>
+
+        <br>
+        <span class="subtitle">Crafting</span>
+        <div class="line"></div>
+
+        <span class="pTitle">Recipes</span><br>
+        <table>
+            <tr>
+                <th>Result</th>
+                <th>Ingredients</th>
+                <th>Crafting Station</th>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../images/square.png" class="item_image">
+                    <a href="furnace.html">Furnace</a>
+                </td>
+                <td>
+                    <img src="../images/square.png" class="item_image">
+                    <a href="stone.html">Stone</a> 
+                    <span style="font-size: 14px;">(10)</span>
+                </td>
+                <td rowspan="2">
+                    <img src="../images/square.png" class="item_image">
+                    <a href="work_bench.html">Work Bench</a>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <img src="../images/square.png" class="item_image">
+                    <a href="stone_sword.html">Stone Sword</a>
+                </td>
+                <td>
+                    <div style="margin-bottom: 4px;">
+                        <img src="../images/square.png" class="item_image">
+                        <a href="stone.html">Stone</a> 
+                        <span style="font-size: 14px;">(10)</span>
+                    </div>
+                    <div>
+                        <img src="../images/square.png" class="item_image">
+                        <a href="stone.html">Stone</a> 
+                        <span style="font-size: 14px;">(10)</span>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <span class="pTitle">Used in</span>
+    </div>
+
+    <div class="footer">
+
+    </div>
+
+</body>
+
+</html>

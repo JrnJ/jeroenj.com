@@ -1,0 +1,70 @@
+#navigation {
+    background-color: #292929;
+    height: 140px;
+}
+
+.navImageBorder {
+    padding-top: 25px;
+    padding-left: 25px;
+    overflow: hidden;
+}
+
+.navImage {
+    width: 90px;
+    height: 90px;
+    border-radius: 6px;
+    float: left;
+}
+
+.navWikiInfo {
+    float: left;
+    padding-left: 20px;
+}
+
+.navTitle {
+    font-size: 22px;
+}
+
+.navSearchBar {
+    position: relative;
+}
+
+/* Normal State */
+.navSearchBarInput {
+    background-color: #212121;
+    color: white;
+    height: 32px;
+    font-size: 14px;
+    border: 0px;
+    border-radius: 4px;
+    padding-left: 32px; /* Input Height */
+
+    position: absolute;
+    z-index: 0;
+}
+
+/* When MouseLeftDown is held or hit */
+/* .navSearchBarInput:active {
+
+} */
+
+/* When mouse hovers over input field */
+/* .navSearchBarInput:hover {
+
+} */
+
+.navSearchBarInput:focus {
+    border: 0px;
+    outline: none;
+    font-weight: normal;
+}
+
+.navSearchIcon {
+    height: 20px;
+    width: 20px;
+    margin-top: 6px; /* (Input Height - Icon Height) / 2 */
+    margin-left: 6px; /* margin-top */
+
+    position: absolute;
+    z-index: 1;
+}

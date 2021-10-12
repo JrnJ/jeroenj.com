@@ -1,0 +1,29 @@
+* {
+    font-family: Arial;
+    color: white;
+}
+
+body {
+    background-color: #2d2d2d;
+    margin: 0;
+}
+
+.headertext {
+    font-size: 38px;
+}
+
+.subtitle {
+    font-size: 24px;
+}
+
+.pTitle {
+    font-size: 20px;
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: gray;
+    margin-top: 6px;
+    margin-bottom: 6px;
+}
