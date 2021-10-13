@@ -1,4 +1,15 @@
 #footer {
     height: 200px;
     background-color: #282828;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+}
+
+.github_logo {
+    width: 24px;
+}
+
+.github_logo:hover {
+    opacity: 0.5;
 }

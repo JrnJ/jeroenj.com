@@ -1,9 +1,27 @@
 * {
-    color: White; 
+    color: White;
     font-family: 'Consolas', 'Arial';
 }
 
 body {
-    background-color: #2d2d2d; 
+    background-color: #2d2d2d;
     margin: 0px;
 }
+
+/* <ScrollBar> */
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    background: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #484848;
+}
+/* </ScrollBar> */
