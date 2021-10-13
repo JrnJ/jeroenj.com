@@ -8,6 +8,24 @@ body {
     margin: 0;
 }
 
+/* <ScrollBar> */
+::-webkit-scrollbar {
+    width: 17px;
+}
+
+::-webkit-scrollbar-track {
+    background: #303030;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #404040;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #484848;
+}
+/* </ScrollBar> */
+
 .headertext {
     font-size: 38px;
 }
