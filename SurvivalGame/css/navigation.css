@@ -10,10 +10,17 @@
 }
 
 .navImage {
+    background: url('../images/square.png');
     width: 90px;
     height: 90px;
     border-radius: 6px;
     float: left;
+    border: 0px;
+}
+
+.navImage:hover {
+    opacity: 0.825;
+    cursor: pointer;
 }
 
 .navWikiInfo {
