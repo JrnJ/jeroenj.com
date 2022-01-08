@@ -1,6 +1,24 @@
 #navigation {
-    background-color: #292929;
+    top: 0;
     height: 140px;
+    position: sticky;
+}
+
+#navBackground {
+    background-color: #2d2d2d;
+    height: 140px;
+    opacity: 0.99;
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#navContent {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .navImageBorder {
