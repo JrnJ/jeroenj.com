@@ -6,19 +6,19 @@
                 "Position": 1,
                 "ItemProbability": [
                     {
-                        "ItemName": "GreenShell",
+                        "Name": "GreenShell",
                         "Probability": 32.5
                     },
                     {
-                        "ItemName": "Banana",
+                        "Name": "Banana",
                         "Probability": 37.5
                     },
                     {
-                        "ItemName": "FakeItemBox",
+                        "Name": "FakeItemBox",
                         "Probability": 20
                     },
                     {
-                        "ItemName": "TripleBananas",
+                        "Name": "TripleBananas",
                         "Probability": 10
                     }
                 ]
@@ -27,32 +27,77 @@
                 "Position": 2,
                 "ItemProbability": [
                     {
-                        "ItemName": "GreenShell",
+                        "Name": "GreenShell",
                         "Probability": 17.5
                     },
                     {
-                        "ItemName": "RedShell",
+                        "Name": "RedShell",
                         "Probability": 25
                     },
                     {
-                        "ItemName": "Banana",
+                        "Name": "Banana",
                         "Probability": 20
                     },
                     {
-                        "ItemName": "FakeItemBox",
+                        "Name": "FakeItemBox",
                         "Probability": 7.5
                     },
                     {
-                        "ItemName": "Mushroom",
+                        "Name": "Mushroom",
                         "Probability": 12.5
                     },
                     {
-                        "ItemName": "TripleGreenShells",
+                        "Name": "TripleGreenShells",
                         "Probability": 5
                     },
                     {
-                        "ItemName": "TripleBananas",
+                        "Name": "TripleBananas",
                         "Probability": 12.5
+                    }
+                ]
+            },
+            {
+                "Position": 3,
+                "ItemProbability": [
+                    {
+                        "Name": "GreenShell",
+                        "Probability": 15
+                    },
+                    {
+                        "Name": "RedShell",
+                        "Probability": 25
+                    },
+                    {
+                        "Name": "Banana",
+                        "Probability": 7.5
+                    },
+                    {
+                        "Name": "FakeItemBox",
+                        "Probability": 5
+                    },
+                    {
+                        "Name": "Mushroom",
+                        "Probability": 17.5
+                    },
+                    {
+                        "Name": "Bob-omb",
+                        "Probability": 2.5
+                    },
+                    {
+                        "Name": "TunderCloud",
+                        "Probability": 2.5
+                    },
+                    {
+                        "Name": "TripleGreenShells",
+                        "Probability": 10
+                    },
+                    {
+                        "Name": "TripleRedShells",
+                        "Probability": 5
+                    },
+                    {
+                        "Name": "TripleBananas",
+                        "Probability": 10
                     }
                 ]
             }

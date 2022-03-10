@@ -6,48 +6,96 @@ function Vector2(x, y) {
 const c = document.getElementById("renderer");
 const ctx = c.getContext("2d");
 
+const canvasHeight = c.clientHeight;
+const canvasWidth = c.clientWidth;
+
 // Chart Variables
 const MinValue = 0;
 const MaxValue = 100;
 const ValueDeviderAmount = 10;
 
 async function GetJSON() {
-    let url = '../json/items.json';
+    let url = 'https://github.com/JrnJ/jeroenj.com/blob/main/Random/MKW/json/items.json';
     let obj = await (await fetch(url)).json();
     console.log(obj);
 }
 
+function ItemNameToColor(name) {
+    switch (name) {
+        case "GreenShell":
+            return "#1BBE25";
+        case "TripleGreenShells":
+            return "#1B6D00";
+
+        case "RedShell":
+            return "#F90018";
+        case "TripleRedShells":
+            return "#FFFF00";
+
+        case "Banana":
+            return "#FFFF00";
+        case "TripleBananas":
+            return "#FFFF00";
+
+        case "FakeItemBox":
+            return "#4a0000";
+
+        case "Mushroom":
+            return "#ff2626";
+        case "TripleMushrooms":
+            return "#ffff00";
+        case "GoldenMushroom":
+            return "#";
+        case "MegaMushroom":
+            return "#";
+
+        default:
+            return 'purple';
+    }
+}
+
 async function Main() {
-    //DrawQuad(new Vector2(100, 0));
-    //DrawCircle(80, true, '#FF6600');
-
-    // Initialize Graph
-    // for (let i = 0; i < ValueDeviderAmount; i++)
-    // {
-    //     DrawLine(new Vector2(100, 100), new Vector2(200, i * 10 + 100), "#FF6600");
-    // }
-
     // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
 
-    // DrawLine(new Vector2(100, 100), new Vector2(200, 100), "#FF6600");
-    // DrawText("200", new Vector2(70, 100), "#000000");
-    // DrawCircle(new Vector2(100, 100), 10, true, "rgba(255, 0, 0, 1)");
-    // DrawCircle(new Vector2(200, 100), 10, true, "#FF0000");
+    //await GetJSON(); // stupid cors
+    let json = JSON.parse('[{"Racers":12,"Positions":[{"Position":1,"ItemProbability":[{"ItemName":"GreenShell","Probability":32.5},{"ItemName":"Banana","Probability":37.5},{"ItemName":"FakeItemBox","Probability":20},{"ItemName":"TripleBananas","Probability":10}]},{"Position":2,"ItemProbability":[{"ItemName":"GreenShell","Probability":17.5},{"ItemName":"RedShell","Probability":25},{"ItemName":"Banana","Probability":20},{"ItemName":"FakeItemBox","Probability":7.5},{"ItemName":"Mushroom","Probability":12.5},{"ItemName":"TripleGreenShells","Probability":5},{"ItemName":"TripleBananas","Probability":12.5}]}]}]');
+    console.log(json);
 
-    let url = '';
+    // for (let racers = 11; racers >= 0; racers--) {
+    //     //console.log("Amount of racers: " + (racers + 1));
 
-    await GetJSON();
+    //     for (let positions = 0; positions <= racers; positions++)
+    //     {
+    //         //console.log("Positions: " + (positions + 1));
+    //     }
+    // }
 
-    for (let racers = 11; racers >= 0; racers--) {
-        //console.log("Amount of racers: " + (racers + 1));
+    // Get Racers Amount
+    for (let racers = json.length; racers > 0; racers--)
+    {
+        let placement = json[racers - 1];
+        //console.log("Racers: " + placement.Racers);
 
-        for (let positions = 0; positions <= racers; positions++)
+        // Get Position in Racers
+        for (let positions = 0; positions < placement.Positions.length; positions++)
         {
-            //console.log("Positions: " + (positions + 1));
+            let position = placement.Positions[positions];
+
+            let previousHeight = 0;
+
+            // Fill Chart with Item Probability
+            for (let items = 0; items < position.ItemProbability.length; items++)
+            {
+                let item = position.ItemProbability[items];
+
+                const height = canvasHeight / 100 * item.Probability;
+
+                DrawQuad(new Vector2(100 * positions + (positions * 10), previousHeight), new Vector2(100, height), ItemNameToColor(item.Item));
+
+                previousHeight += height;
+            }
         }
     }
-
-    DrawQuad(new Vector2(0, 0), new Vector2(100, 200), "#FF6600");
 }
 
 const hexToRgbA = (hex) => {
