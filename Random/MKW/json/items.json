@@ -84,7 +84,52 @@
                         "Probability": 2.5
                     },
                     {
-                        "Name": "TunderCloud",
+                        "Name": "ThunderCloud",
+                        "Probability": 2.5
+                    },
+                    {
+                        "Name": "TripleGreenShells",
+                        "Probability": 10
+                    },
+                    {
+                        "Name": "TripleRedShells",
+                        "Probability": 5
+                    },
+                    {
+                        "Name": "TripleBananas",
+                        "Probability": 10
+                    }
+                ]
+            },
+            {
+                "Position": 4,
+                "ItemProbability": [
+                    {
+                        "Name": "GreenShell",
+                        "Probability": 7.5
+                    },
+                    {
+                        "Name": "RedShell",
+                        "Probability": 25
+                    },
+                    {
+                        "Name": "Banana",
+                        "Probability": 7.5
+                    },
+                    {
+                        "Name": "FakeItemBox",
+                        "Probability": 5
+                    },
+                    {
+                        "Name": "Mushroom",
+                        "Probability": 17.5
+                    },
+                    {
+                        "Name": "Bob-omb",
+                        "Probability": 2.5
+                    },
+                    {
+                        "Name": "ThunderCloud",
                         "Probability": 2.5
                     },
                     {
