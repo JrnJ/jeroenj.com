@@ -1,8 +1,24 @@
-/* Will Change so duplicate :) */
-
 #navigation {
-    background-color: #282828;
+    top: 0;
     height: 140px;
+    position: sticky;
+}
+
+#navBackground {
+    background-color: #292929;
+    height: 140px;
+    opacity: 0.99;
+
+    position: absolute;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+#navContent {
+    position: absolute;
+    top: 0;
+    left: 0;
 }
 
 .navImageBorder {
@@ -12,10 +28,23 @@
 }
 
 .navImage {
+    background-color: transparent;
+    background-image: url('../images/3dSphere.png');
+    background-size: 90px 90px;
     width: 90px;
     height: 90px;
     border-radius: 6px;
     float: left;
+    border: 0px solid black;
+}
+
+.navImage:hover {
+    opacity: 0.825;
+    cursor: pointer;
+}
+
+.navTitle {
+    font-size: 22px;
 }
 
 .navInfo {
@@ -23,8 +52,9 @@
     padding-left: 20px;
 }
 
-.navTitle {
-    font-size: 22px;
+.navWikiInfo {
+    float: left;
+    padding-left: 20px;
 }
 
 #navTabs {
