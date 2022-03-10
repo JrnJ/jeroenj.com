@@ -1,151 +1,471 @@
 [
     {
-        "Racers": 12,
-        "Positions": [
+      "Racers": 12,
+      "Positions": [
+        {
+          "Position": 1,
+          "ItemProbability": [
             {
-                "Position": 1,
-                "ItemProbability": [
-                    {
-                        "Name": "GreenShell",
-                        "Probability": 32.5
-                    },
-                    {
-                        "Name": "Banana",
-                        "Probability": 37.5
-                    },
-                    {
-                        "Name": "FakeItemBox",
-                        "Probability": 20
-                    },
-                    {
-                        "Name": "TripleBananas",
-                        "Probability": 10
-                    }
-                ]
+              "Name": "Green Shell",
+              "Probability": 32.5
             },
             {
-                "Position": 2,
-                "ItemProbability": [
-                    {
-                        "Name": "GreenShell",
-                        "Probability": 17.5
-                    },
-                    {
-                        "Name": "RedShell",
-                        "Probability": 25
-                    },
-                    {
-                        "Name": "Banana",
-                        "Probability": 20
-                    },
-                    {
-                        "Name": "FakeItemBox",
-                        "Probability": 7.5
-                    },
-                    {
-                        "Name": "Mushroom",
-                        "Probability": 12.5
-                    },
-                    {
-                        "Name": "TripleGreenShells",
-                        "Probability": 5
-                    },
-                    {
-                        "Name": "TripleBananas",
-                        "Probability": 12.5
-                    }
-                ]
+              "Name": "Banana",
+              "Probability": 37.5
             },
             {
-                "Position": 3,
-                "ItemProbability": [
-                    {
-                        "Name": "GreenShell",
-                        "Probability": 15
-                    },
-                    {
-                        "Name": "RedShell",
-                        "Probability": 25
-                    },
-                    {
-                        "Name": "Banana",
-                        "Probability": 7.5
-                    },
-                    {
-                        "Name": "FakeItemBox",
-                        "Probability": 5
-                    },
-                    {
-                        "Name": "Mushroom",
-                        "Probability": 17.5
-                    },
-                    {
-                        "Name": "Bob-omb",
-                        "Probability": 2.5
-                    },
-                    {
-                        "Name": "ThunderCloud",
-                        "Probability": 2.5
-                    },
-                    {
-                        "Name": "TripleGreenShells",
-                        "Probability": 10
-                    },
-                    {
-                        "Name": "TripleRedShells",
-                        "Probability": 5
-                    },
-                    {
-                        "Name": "TripleBananas",
-                        "Probability": 10
-                    }
-                ]
+              "Name": "Fake Item Box",
+              "Probability": 20.0
             },
             {
-                "Position": 4,
-                "ItemProbability": [
-                    {
-                        "Name": "GreenShell",
-                        "Probability": 7.5
-                    },
-                    {
-                        "Name": "RedShell",
-                        "Probability": 25
-                    },
-                    {
-                        "Name": "Banana",
-                        "Probability": 7.5
-                    },
-                    {
-                        "Name": "FakeItemBox",
-                        "Probability": 5
-                    },
-                    {
-                        "Name": "Mushroom",
-                        "Probability": 17.5
-                    },
-                    {
-                        "Name": "Bob-omb",
-                        "Probability": 2.5
-                    },
-                    {
-                        "Name": "ThunderCloud",
-                        "Probability": 2.5
-                    },
-                    {
-                        "Name": "TripleGreenShells",
-                        "Probability": 10
-                    },
-                    {
-                        "Name": "TripleRedShells",
-                        "Probability": 5
-                    },
-                    {
-                        "Name": "TripleBananas",
-                        "Probability": 10
-                    }
-                ]
+              "Name": "Triple Bananas",
+              "Probability": 10.0
             }
-        ]
+          ]
+        },
+        {
+          "Position": 2,
+          "ItemProbability": [
+            {
+              "Name": "Green Shell",
+              "Probability": 17.5
+            },
+            {
+              "Name": "Red Shell",
+              "Probability": 25.0
+            },
+            {
+              "Name": "Banana",
+              "Probability": 20.0
+            },
+            {
+              "Name": "Fake Item Box",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Mushroom",
+              "Probability": 12.5
+            },
+            {
+              "Name": "Triple Green Shells",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Triple Bananas",
+              "Probability": 12.5
+            }
+          ]
+        },
+        {
+          "Position": 3,
+          "ItemProbability": [
+            {
+              "Name": "Green Shell",
+              "Probability": 15.0
+            },
+            {
+              "Name": "Red Shell",
+              "Probability": 25.0
+            },
+            {
+              "Name": "Banana",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Fake Item Box",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Mushroom",
+              "Probability": 17.5
+            },
+            {
+              "Name": "Bob-omb",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Thundercloud",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Triple Green Shells",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Triple Red Shells",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Triple Bananas",
+              "Probability": 10.0
+            }
+          ]
+        },
+        {
+          "Position": 4,
+          "ItemProbability": [
+            {
+              "Name": "Green Shell",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Red Shell",
+              "Probability": 20.0
+            },
+            {
+              "Name": "Banana",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Fake Item Box",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Mushroom",
+              "Probability": 22.5
+            },
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Bob-omb",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Blue Shell",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Mega Mushroom",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Thundercloud",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Triple Green Shells",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Triple Red Shells",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Triple Bananas",
+              "Probability": 2.5
+            }
+          ]
+        },
+        {
+          "Position": 5,
+          "ItemProbability": [
+            {
+              "Name": "Green Shell",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Red Shell",
+              "Probability": 15.0
+            },
+            {
+              "Name": "Mushroom",
+              "Probability": 15.0
+            },
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Bob-omb",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Blue Shell",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Mega Mushroom",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Blooper",
+              "Probability": 5.0
+            },
+            {
+              "Name": "POW Block",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Thundercloud",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Triple Green Shells",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Triple Red Shells",
+              "Probability": 10.0
+            }
+          ]
+        },
+        {
+          "Position": 6,
+          "ItemProbability": [
+            {
+              "Name": "Red Shell",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Mushroom",
+              "Probability": 12.5
+            },
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 15.0
+            },
+            {
+              "Name": "Bob-omb",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Blue Shell",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Mega Mushroom",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Blooper",
+              "Probability": 7.5
+            },
+            {
+              "Name": "POW Block",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Thundercloud",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Triple Green Shells",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Triple Red Shells",
+              "Probability": 10.0
+            }
+          ]
+        },
+        {
+          "Position": 7,
+          "ItemProbability": [
+            {
+              "Name": "Red Shell",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Mushroom",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 25.0
+            },
+            {
+              "Name": "Bob-omb",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Blue Shell",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 10.0
+            },
+            {
+              "Name": "Mega Mushroom",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Blooper",
+              "Probability": 7.5
+            },
+            {
+              "Name": "POW Block",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Thundercloud",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Triple Green Shells",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Triple Red Shells",
+              "Probability": 7.5
+            }
+          ]
+        },
+        {
+          "Position": 8,
+          "ItemProbability": [
+            {
+              "Name": "Red Shell",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 32.5
+            },
+            {
+              "Name": "Blue Shell",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Star",
+              "Probability": 12.5
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 22.5
+            },
+            {
+              "Name": "Mega Mushroom",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Blooper",
+              "Probability": 5.0
+            },
+            {
+              "Name": "POW Block",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Thundercloud",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Triple Red Shells",
+              "Probability": 5.0
+            }
+          ]
+        },
+        {
+          "Position": 9,
+          "ItemProbability": [
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 37.5
+            },
+            {
+              "Name": "Blue Shell",
+              "Probability": 2.5
+            },
+            {
+              "Name": "Star",
+              "Probability": 20.0
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 27.5
+            },
+            {
+              "Name": "Blooper",
+              "Probability": 5.0
+            },
+            {
+              "Name": "POW Block",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Bullet Bill",
+              "Probability": 2.5
+            }
+          ]
+        },
+        {
+          "Position": 10,
+          "ItemProbability": [
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 30.0
+            },
+            {
+              "Name": "Star",
+              "Probability": 27.5
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 35.0
+            },
+            {
+              "Name": "Bullet Bill",
+              "Probability": 7.5
+            }
+          ]
+        },
+        {
+          "Position": 11,
+          "ItemProbability": [
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 12.5
+            },
+            {
+              "Name": "Lightning",
+              "Probability": 7.5
+            },
+            {
+              "Name": "Star",
+              "Probability": 27.5
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 30.0
+            },
+            {
+              "Name": "Bullet Bill",
+              "Probability": 22.5
+            }
+          ]
+        },
+        {
+          "Position": 12,
+          "ItemProbability": [
+            {
+              "Name": "Triple Mushroom",
+              "Probability": 5.0
+            },
+            {
+              "Name": "Lightning",
+              "Probability": 20.0
+            },
+            {
+              "Name": "Star",
+              "Probability": 17.5
+            },
+            {
+              "Name": "Golden Mushroom",
+              "Probability": 22.5
+            },
+            {
+              "Name": "Bullet Bill",
+              "Probability": 35.0
+            }
+          ]
+        }
+      ]
     }
 ]
