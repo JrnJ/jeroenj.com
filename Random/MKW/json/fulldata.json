@@ -1,0 +1,5804 @@
+[
+  {
+    "Racers": 12,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 8,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 9,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 10,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 11,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 22.5
+          }
+        ]
+      },
+      {
+        "Position": 12,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 35.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 11,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 8,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 9,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 10,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 22.5
+          }
+        ]
+      },
+      {
+        "Position": 11,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 35.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 10,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 8,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 9,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 22.5
+          }
+        ]
+      },
+      {
+        "Position": 10,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 35.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 9,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 8,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 22.5
+          }
+        ]
+      },
+      {
+        "Position": 9,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 35.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 8,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 8,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 35.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 7,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 35.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 6,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 22.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 5,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 4,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 2.5
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 3,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "Racers": 2,
+    "Positions": [
+      {
+        "Position": 1,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 2,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 3,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 4,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 5,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 6,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 7,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 8,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 9,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 7.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 10,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 11,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 12,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 15.0
+          }
+        ]
+      },
+      {
+        "Position": 13,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 20.0
+          }
+        ]
+      },
+      {
+        "Position": 14,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 25.0
+          }
+        ]
+      },
+      {
+        "Position": 15,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 16,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 17,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 18,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 19,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 20,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 21,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 22,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 23,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 24,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 25,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 26,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 22.5
+          }
+        ]
+      },
+      {
+        "Position": 27,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 28,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 29,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 30,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 31,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 32,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 10.0
+          }
+        ]
+      },
+      {
+        "Position": 33,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 34,
+        "ItemProbability": [
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 35,
+        "ItemProbability": [
+          {
+            "Name": "Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 37.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 36,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 37,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 20.0
+          }
+        ]
+      },
+      {
+        "Position": 38,
+        "ItemProbability": [
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 32.5
+          }
+        ]
+      },
+      {
+        "Position": 39,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 12.5
+          }
+        ]
+      },
+      {
+        "Position": 40,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 41,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 42,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          }
+        ]
+      },
+      {
+        "Position": 43,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 44,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Thundercloud",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          }
+        ]
+      },
+      {
+        "Position": 45,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 46,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 47,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 48,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 49,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 17.5
+          }
+        ]
+      },
+      {
+        "Position": 50,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 15.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Bullet Bill",
+            "Probability": 25.0
+          }
+        ]
+      },
+      {
+        "Position": 51,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 52,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 53,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 15.0
+          }
+        ]
+      },
+      {
+        "Position": 54,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 55,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 17.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 56,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 40.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 57,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 25.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 58,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 59,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Lightning",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 15.0
+          }
+        ]
+      },
+      {
+        "Position": 60,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 61,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 62,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 32.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 15.0
+          }
+        ]
+      },
+      {
+        "Position": 63,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 22.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 64,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 65,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 40.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 66,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 20.0
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 27.5
+          },
+          {
+            "Name": "Banana",
+            "Probability": 12.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 67,
+        "ItemProbability": [
+          {
+            "Name": "Green Shell",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Red Shell",
+            "Probability": 30.0
+          },
+          {
+            "Name": "Banana",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Fake Item Box",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Star",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Bananas",
+            "Probability": 5.0
+          }
+        ]
+      },
+      {
+        "Position": 68,
+        "ItemProbability": [
+          {
+            "Name": "Red Shell",
+            "Probability": 35.0
+          },
+          {
+            "Name": "Triple Mushroom",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Bob-omb",
+            "Probability": 5.0
+          },
+          {
+            "Name": "Blue Shell",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Star",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Golden Mushroom",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Mega Mushroom",
+            "Probability": 10.0
+          },
+          {
+            "Name": "Blooper",
+            "Probability": 2.5
+          },
+          {
+            "Name": "POW Block",
+            "Probability": 2.5
+          },
+          {
+            "Name": "Triple Green Shells",
+            "Probability": 7.5
+          },
+          {
+            "Name": "Triple Red Shells",
+            "Probability": 15.0
+          }
+        ]
+      }
+    ]
+  }
+]

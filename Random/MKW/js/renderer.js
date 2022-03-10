@@ -22,49 +22,49 @@ async function GetJSON() {
 
 function ItemNameToColor(name) {
     switch (name) {
-        case "GreenShell":
+        case "Green Shell":
             return "#1BBE25";
-        case "TripleGreenShells":
+        case "Triple Green Shells":
             return "#1B6D00";
 
-        case "RedShell":
-            return "#F90018";
-        case "TripleRedShells":
+        case "Red Shell":
+            return "#ff2929";
+        case "Triple Red Shells":
             return "#FF0000";
 
         case "Banana":
-            return "#FFFF00";
-        case "TripleBananas":
-            return "#FFFF00";
+            return "#d4d415";
+        case "Triple Bananas":
+            return "#bfbf15";
 
-        case "FakeItemBox":
+        case "Fake Item Box":
             return "#4a0000";
-        case "ThunderCloud":
+        case "Thundercloud":
             return "#7894CF";
 
         case "Mushroom":
-            return "#ff2626";
-        case "TripleMushrooms":
-            return "#ffff00";
-        case "GoldenMushroom":
+            return "#ff0000";
+        case "Triple Mushroom":
+            return "#b30000";
+        case "Golden Mushroom":
             return "#ffa508";
-        case "MegaMushroom":
+        case "Mega Mushroom":
             return "#d6a508";
 
         case "Bob-omb":
             return "#26273D";
-        case "BlueShell":
+        case "Blue Shell":
             return "#0873ff";
-        case "POWBlock":
+        case "POW Block":
             return "#313a84";
         case "Blooper":
             return "#525a63"; 
-        case "Shock":
-            return "#FFFF00";
+        case "Lightning":
+            return "#d4d415";
 
         case "Star":
             return "#ffff63";
-        case "BulletBill":
+        case "Bullet Bill":
             return "#000000";
 
         default:
@@ -76,7 +76,7 @@ async function Main() {
     // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
 
     //await GetJSON(); // stupid cors
-    let json = JSON.parse('[{"Racers":12,"Positions":[{"Position":1,"ItemProbability":[{"Name":"GreenShell","Probability":32.5},{"Name":"Banana","Probability":37.5},{"Name":"FakeItemBox","Probability":20},{"Name":"TripleBananas","Probability":10}]},{"Position":2,"ItemProbability":[{"Name":"GreenShell","Probability":17.5},{"Name":"RedShell","Probability":25},{"Name":"Banana","Probability":20},{"Name":"FakeItemBox","Probability":7.5},{"Name":"Mushroom","Probability":12.5},{"Name":"TripleGreenShells","Probability":5},{"Name":"TripleBananas","Probability":12.5}]},{"Position":3,"ItemProbability":[{"Name":"GreenShell","Probability":15},{"Name":"RedShell","Probability":25},{"Name":"Banana","Probability":7.5},{"Name":"FakeItemBox","Probability":5},{"Name":"Mushroom","Probability":17.5},{"Name":"Bob-omb","Probability":2.5},{"Name":"ThunderCloud","Probability":2.5},{"Name":"TripleGreenShells","Probability":10},{"Name":"TripleRedShells","Probability":5},{"Name":"TripleBananas","Probability":10}]}]}]');
+    let json = JSON.parse('[{"Racers":12,"Positions":[{"Position":1,"ItemProbability":[{"Name":"Green Shell","Probability":32.5},{"Name":"Banana","Probability":37.5},{"Name":"Fake Item Box","Probability":20},{"Name":"Triple Bananas","Probability":10}]},{"Position":2,"ItemProbability":[{"Name":"Green Shell","Probability":17.5},{"Name":"Red Shell","Probability":25},{"Name":"Banana","Probability":20},{"Name":"Fake Item Box","Probability":7.5},{"Name":"Mushroom","Probability":12.5},{"Name":"Triple Green Shells","Probability":5},{"Name":"Triple Bananas","Probability":12.5}]},{"Position":3,"ItemProbability":[{"Name":"Green Shell","Probability":15},{"Name":"Red Shell","Probability":25},{"Name":"Banana","Probability":7.5},{"Name":"Fake Item Box","Probability":5},{"Name":"Mushroom","Probability":17.5},{"Name":"Bob-omb","Probability":2.5},{"Name":"Thundercloud","Probability":2.5},{"Name":"Triple Green Shells","Probability":10},{"Name":"Triple Red Shells","Probability":5},{"Name":"Triple Bananas","Probability":10}]},{"Position":4,"ItemProbability":[{"Name":"Green Shell","Probability":7.5},{"Name":"Red Shell","Probability":20},{"Name":"Banana","Probability":2.5},{"Name":"Fake Item Box","Probability":2.5},{"Name":"Mushroom","Probability":22.5},{"Name":"Triple Mushroom","Probability":5},{"Name":"Bob-omb","Probability":5},{"Name":"Blue Shell","Probability":2.5},{"Name":"Mega Mushroom","Probability":2.5},{"Name":"Thundercloud","Probability":7.5},{"Name":"Triple Green Shells","Probability":10},{"Name":"Triple Red Shells","Probability":10},{"Name":"Triple Bananas","Probability":2.5}]},{"Position":5,"ItemProbability":[{"Name":"Green Shell","Probability":5},{"Name":"Red Shell","Probability":15},{"Name":"Mushroom","Probability":15},{"Name":"Triple Mushroom","Probability":10},{"Name":"Bob-omb","Probability":7.5},{"Name":"Blue Shell","Probability":5},{"Name":"Mega Mushroom","Probability":7.5},{"Name":"Blooper","Probability":5},{"Name":"POW Block","Probability":5},{"Name":"Thundercloud","Probability":7.5},{"Name":"Triple Green Shells","Probability":7.5},{"Name":"Triple Red Shells","Probability":10}]},{"Position":6,"ItemProbability":[{"Name":"Red Shell","Probability":10},{"Name":"Mushroom","Probability":12.5},{"Name":"Triple Mushroom","Probability":15},{"Name":"Bob-omb","Probability":7.5},{"Name":"Blue Shell","Probability":7.5},{"Name":"Golden Mushroom","Probability":2.5},{"Name":"Mega Mushroom","Probability":10},{"Name":"Blooper","Probability":7.5},{"Name":"POW Block","Probability":5},{"Name":"Thundercloud","Probability":7.5},{"Name":"Triple Green Shells","Probability":5},{"Name":"Triple Red Shells","Probability":10}]},{"Position":7,"ItemProbability":[{"Name":"Red Shell","Probability":5},{"Name":"Mushroom","Probability":10},{"Name":"Triple Mushroom","Probability":25},{"Name":"Bob-omb","Probability":5},{"Name":"Blue Shell","Probability":7.5},{"Name":"Golden Mushroom","Probability":10},{"Name":"Mega Mushroom","Probability":7.5},{"Name":"Blooper","Probability":7.5},{"Name":"POW Block","Probability":7.5},{"Name":"Thundercloud","Probability":5},{"Name":"Triple Green Shells","Probability":2.5},{"Name":"Triple Red Shells","Probability":7.5}]},{"Position":8,"ItemProbability":[{"Name":"Red Shell","Probability":2.5},{"Name":"Triple Mushroom","Probability":32.5},{"Name":"Blue Shell","Probability":5},{"Name":"Star","Probability":12.5},{"Name":"Golden Mushroom","Probability":22.5},{"Name":"Mega Mushroom","Probability":5},{"Name":"Blooper","Probability":5},{"Name":"POW Block","Probability":5},{"Name":"Thundercloud","Probability":5},{"Name":"Triple Red Shells","Probability":5}]},{"Position":9,"ItemProbability":[{"Name":"Triple Mushroom","Probability":37.5},{"Name":"Blue Shell","Probability":2.5},{"Name":"Star","Probability":20},{"Name":"Golden Mushroom","Probability":27.5},{"Name":"Blooper","Probability":5},{"Name":"POW Block","Probability":5},{"Name":"Bullet Bill","Probability":2.5}]},{"Position":10,"ItemProbability":[{"Name":"Triple Mushroom","Probability":30},{"Name":"Star","Probability":27.5},{"Name":"Golden Mushroom","Probability":35},{"Name":"Bullet Bill","Probability":7.5}]},{"Position":11,"ItemProbability":[{"Name":"Triple Mushroom","Probability":12.5},{"Name":"Lightning","Probability":7.5},{"Name":"Star","Probability":27.5},{"Name":"Golden Mushroom","Probability":30},{"Name":"Bullet Bill","Probability":22.5}]},{"Position":12,"ItemProbability":[{"Name":"Triple Mushroom","Probability":5},{"Name":"Lightning","Probability":20},{"Name":"Star","Probability":17.5},{"Name":"Golden Mushroom","Probability":22.5},{"Name":"Bullet Bill","Probability":35}]}]}]');
     console.log(json);
 
     for (let racers = 11; racers >= 0; racers--) {
@@ -102,29 +102,34 @@ async function Main() {
             let previousHeight = 0;
 
             // Fill Chart with Item Probability
+            await DrawImage("./images/Positions/" + position.Position + ".png",
+                new Vector2(10 + 110 * positions, 10), new Vector2(80, 80),
+                new Vector2(0, 0), new Vector2(80, 80)
+            );
+
             for (let items = 0; items < position.ItemProbability.length; items++)
             {
                 let item = position.ItemProbability[items];
 
-                const height = canvasHeight / 100 * item.Probability;
+                const height = (canvasHeight - 100) / 100 * item.Probability;
 
                 DrawQuad(
-                    new Vector2(100 * positions + (positions * 10), previousHeight), new Vector2(100, height), 
+                    new Vector2(100 * positions + (positions * 10), previousHeight + 100), new Vector2(100, height), 
                     ItemNameToColor(item.Name));
 
                 // Make sure to crop the image
                 // Sorry for double code but its faster
                 if (height < 60)
                 {
-                    await DrawImage("./images/Items/" + item.Name + ".png",
-                        new Vector2(100 * positions + (positions * 10) + 20, previousHeight - 30 + height / 2 + ((60 - height) / 2)), new Vector2(60, 60),
+                    await DrawImage("./images/Items/" + item.Name.replace(/\s+/g, '') + ".png",
+                        new Vector2(100 * positions + (positions * 10) + 20, previousHeight - 30 + height / 2 + ((60 - height) / 2) + 100), new Vector2(60, 60),
                         new Vector2(0, (60 - height) / 2), new Vector2(60, height)
                     );
                 }
                 else
                 {
-                    await DrawImage("./images/Items/" + item.Name + ".png",
-                        new Vector2(100 * positions + (positions * 10) + 20, previousHeight - 30 + height / 2), new Vector2(60, 60),
+                    await DrawImage("./images/Items/" + item.Name.replace(/\s+/g, '') + ".png",
+                        new Vector2(100 * positions + (positions * 10) + 20, previousHeight - 30 + height / 2 + 100), new Vector2(60, 60),
                         new Vector2(0, 0), new Vector2(60, 60)
                     );
                 }
