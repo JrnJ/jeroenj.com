@@ -1,0 +1,61 @@
+[
+    {
+        "Racers": 12,
+        "Positions": [
+            {
+                "Position": 1,
+                "ItemProbability": [
+                    {
+                        "ItemName": "GreenShell",
+                        "Probability": 32.5
+                    },
+                    {
+                        "ItemName": "Banana",
+                        "Probability": 37.5
+                    },
+                    {
+                        "ItemName": "FakeItemBox",
+                        "Probability": 20
+                    },
+                    {
+                        "ItemName": "TripleBananas",
+                        "Probability": 10
+                    }
+                ]
+            },
+            {
+                "Position": 2,
+                "ItemProbability": [
+                    {
+                        "ItemName": "GreenShell",
+                        "Probability": 17.5
+                    },
+                    {
+                        "ItemName": "RedShell",
+                        "Probability": 25
+                    },
+                    {
+                        "ItemName": "Banana",
+                        "Probability": 20
+                    },
+                    {
+                        "ItemName": "FakeItemBox",
+                        "Probability": 7.5
+                    },
+                    {
+                        "ItemName": "Mushroom",
+                        "Probability": 12.5
+                    },
+                    {
+                        "ItemName": "TripleGreenShells",
+                        "Probability": 5
+                    },
+                    {
+                        "ItemName": "TripleBananas",
+                        "Probability": 12.5
+                    }
+                ]
+            }
+        ]
+    }
+]

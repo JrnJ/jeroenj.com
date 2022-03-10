@@ -1,0 +1,34 @@
+* {
+    color: #FFFFFF;
+    background-color: #252525;
+}
+
+body {
+    background-color: #202020;
+}
+
+/* <Button> */
+button {
+    border: 1px solid #151515;
+}
+button:hover {
+    background-color: #282828;
+}
+button:active {
+    background-color: #313131;
+}
+/* </Button> */
+
+/* <Textarea> */
+textarea {
+    border: 1px solid #151515;
+    
+}
+textarea:focus {
+    outline: none;
+}
+/* </Textarea> */
+
+table, .jrn {
+    border: 1px solid #151515;
+}
