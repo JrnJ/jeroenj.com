@@ -90,7 +90,7 @@ async function Main() {
 
                 const height = canvasHeight / 100 * item.Probability;
 
-                DrawQuad(new Vector2(100 * positions + (positions * 10), previousHeight), new Vector2(100, height), ItemNameToColor(item.Item));
+                DrawQuad(new Vector2(100 * positions + (positions * 10), previousHeight), new Vector2(100, height), ItemNameToColor(item.Name));
 
                 previousHeight += height;
             }
