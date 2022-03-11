@@ -148,8 +148,8 @@ async function Main() {
     await new Promise(r => itemAtlas.onload = r, itemAtlas.src = "./images/Items/ItemAtlas.png");
 
     // Load PositionAtlas
-    //let positionAtlas = new Image();
-    //await new Promise(r => positionAtlas.onload = r, positionAtlas.src = "./images/Positions/PositionAtlas.png");
+    let positionAtlas = new Image();
+    await new Promise(r => positionAtlas.onload = r, positionAtlas.src = "./images/Positions/PositionAtlasStretch.png");
 
     //DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas("Bob-omb"), new Vector2(0, 0), new Vector2(60, 60));
 
@@ -167,7 +167,12 @@ async function Main() {
             let previousHeight = 0;
 
             // Fill Chart with Item Probability
-            await DrawImage("./images/Positions/" + position.Position + ".png",
+            // await DrawImage("./images/Positions/" + position.Position + ".png",
+            //     new Vector2(10 + 110 * positions, 10), new Vector2(80, 80),
+            //     new Vector2(0, 0), new Vector2(80, 80)
+            // );
+
+            DrawFromAtlas(positionAtlas, 100, new Vector2(position.Position - 1, 0), 
                 new Vector2(10 + 110 * positions, 10), new Vector2(80, 80),
                 new Vector2(0, 0), new Vector2(80, 80)
             );
@@ -186,14 +191,14 @@ async function Main() {
                 // Sorry for double code but its faster
                 if (height < 60)
                 {
-                    DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas(item.Name),
+                    DrawFromAtlas(itemAtlas, 100, ItemNameToPositionInItemAtlas(item.Name),
                         new Vector2(110 * positions + 20, previousHeight - 30 + height / 2 + ((60 - height) / 2) + 100), new Vector2(60, 60),
                         new Vector2(0, (60 - height) / 2), new Vector2(60, height)
                     );
                 }
                 else
                 {
-                    DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas(item.Name), 
+                    DrawFromAtlas(itemAtlas, 100, ItemNameToPositionInItemAtlas(item.Name), 
                         new Vector2(110 * positions + 20, previousHeight - 30 + height / 2 + 100), new Vector2(60, 60),
                         new Vector2(0, 0), new Vector2(60, 60)
                     );
@@ -269,10 +274,9 @@ const DrawCircle = (position, radius, fill, color) => {
     }
 }
 
-async function DrawFromAtlas(atlas, atlasPosition, leftTop, size, sourceLeftTop, sourceSize) {
+async function DrawFromAtlas(atlas, spriteWidth, atlasPosition, leftTop, size, sourceLeftTop, sourceSize) {
     const atlasWidth = atlas.naturalWidth;
     const atlasHeight = atlas.naturalHeight;
-    const spriteWidth = 100;
 
     //ctx.imageSmoothingEnabled = false; // pixel-perfect or smoothing
     ctx.drawImage(atlas, 
