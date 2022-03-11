@@ -72,6 +72,61 @@ function ItemNameToColor(name) {
     }
 }
 
+function ItemNameToPositionInItemAtlas(name) {
+    switch (name) {
+        // return new Vector2(left, top); starting at 0, 0 which is topleft
+        case "Banana":
+            return new Vector2(0, 0);
+        case "Triple Bananas":
+            return new Vector2(1, 0);
+
+        case "Green Shell":
+            return new Vector2(2, 0);
+        case "Triple Green Shells":
+            return new Vector2(3, 0);
+
+        case "Red Shell":
+            return new Vector2(4, 0);
+        case "Triple Red Shells":
+            return new Vector2(0, 1);
+
+        case "Fake Item Box":
+            return new Vector2(1, 1);
+
+        case "Bob-omb":
+            return new Vector2(2, 1);
+        case "Blue Shell":
+            return new Vector2(3, 1);
+
+        case "Thundercloud":
+            return new Vector2(0, 2);
+
+        case "Mushroom":
+            return new Vector2(3, 2);
+        case "Triple Mushroom":
+            return new Vector2(4, 2);
+        case "Golden Mushroom":
+            return new Vector2(0, 3);
+        case "Mega Mushroom":
+            return new Vector2(4, 1);
+
+        case "POW Block":
+            return new Vector2(1, 2);
+        case "Blooper":
+            return new Vector2(2, 2); 
+        case "Lightning":
+            return new Vector2(3, 3);
+
+        case "Star":
+            return new Vector2(1, 3);
+        case "Bullet Bill":
+            return new Vector2(2, 3);
+
+        default:
+            return new Vector2(4, 3);
+    }
+}
+
 async function Main() {
     // https://developer.mozilla.org/en-US/docs/Web/API/Canvas_API/Tutorial/Drawing_shapes
 
@@ -87,6 +142,16 @@ async function Main() {
             //console.log("Positions: " + (positions + 1));
         }
     }
+
+    // Load ItemAtlas
+    let itemAtlas = new Image();
+    await new Promise(r => itemAtlas.onload = r, itemAtlas.src = "./images/Items/ItemAtlas.png");
+
+    // Load PositionAtlas
+    //let positionAtlas = new Image();
+    //await new Promise(r => positionAtlas.onload = r, positionAtlas.src = "./images/Positions/PositionAtlas.png");
+
+    //DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas("Bob-omb"), new Vector2(0, 0), new Vector2(60, 60));
 
     //Get Racers Amount
     for (let racers = json.length; racers > 0; racers--)
@@ -121,15 +186,15 @@ async function Main() {
                 // Sorry for double code but its faster
                 if (height < 60)
                 {
-                    await DrawImage("./images/Items/" + item.Name.replace(/\s+/g, '') + ".png",
-                        new Vector2(100 * positions + (positions * 10) + 20, previousHeight - 30 + height / 2 + ((60 - height) / 2) + 100), new Vector2(60, 60),
+                    DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas(item.Name),
+                        new Vector2(110 * positions + 20, previousHeight - 30 + height / 2 + ((60 - height) / 2) + 100), new Vector2(60, 60),
                         new Vector2(0, (60 - height) / 2), new Vector2(60, height)
                     );
                 }
                 else
                 {
-                    await DrawImage("./images/Items/" + item.Name.replace(/\s+/g, '') + ".png",
-                        new Vector2(100 * positions + (positions * 10) + 20, previousHeight - 30 + height / 2 + 100), new Vector2(60, 60),
+                    DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas(item.Name), 
+                        new Vector2(110 * positions + 20, previousHeight - 30 + height / 2 + 100), new Vector2(60, 60),
                         new Vector2(0, 0), new Vector2(60, 60)
                     );
                 }
@@ -204,6 +269,25 @@ const DrawCircle = (position, radius, fill, color) => {
     }
 }
 
+async function DrawFromAtlas(atlas, atlasPosition, leftTop, size, sourceLeftTop, sourceSize) {
+    const atlasWidth = atlas.naturalWidth;
+    const atlasHeight = atlas.naturalHeight;
+    const spriteWidth = 100;
+
+    //ctx.imageSmoothingEnabled = false; // pixel-perfect or smoothing
+    ctx.drawImage(atlas, 
+        // Base starting pos, then cut more
+        (atlasPosition.x * spriteWidth) + (spriteWidth / size.x * sourceLeftTop.x), // / size.x * sourceLeftTop.x
+        (atlasPosition.y * spriteWidth) + (spriteWidth / size.y * sourceLeftTop.y), // / size.y * sourceLeftTop.y
+        // Add to base for final, then cut more
+        spriteWidth / size.x * sourceSize.x, 
+        spriteWidth / size.y * sourceSize.y,
+
+        leftTop.x, leftTop.y,
+        sourceSize.x, sourceSize.y
+    );
+}
+
 async function DrawImage(image, leftTop, size, sourceLeftTop, sourceSize) {
     //ctx.beginPath();
 
@@ -224,7 +308,8 @@ async function DrawImage(image, leftTop, size, sourceLeftTop, sourceSize) {
         // Where to end
         img.naturalWidth  / size.y * sourceSize.y,
         
-        leftTop.x, leftTop.y, sourceSize.x, sourceSize.y);
+        leftTop.x, leftTop.y, sourceSize.x, sourceSize.y
+    );
 }
 
 window.onload = Main;
