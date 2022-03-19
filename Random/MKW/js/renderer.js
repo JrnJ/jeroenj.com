@@ -3,6 +3,17 @@ function Vector2(x, y) {
     this.y = y
 };
 
+function CanvasButton(leftTop, rightBottom, down) {
+    this.leftTop = leftTop,
+    this.rightBottom = rightBottom,
+    this.down = false
+};
+
+function CanvasHoverable(leftTop, rightBottom) {
+    this.leftTop = leftTop,
+    this.rightBottom = rightBottom
+};
+
 const c = document.getElementById("renderer");
 const ctx = c.getContext("2d");
 
@@ -13,6 +24,14 @@ const canvasWidth = c.clientWidth;
 const MinValue = 0;
 const MaxValue = 100;
 const ValueDeviderAmount = 10;
+
+let isMouseDown = false;
+let buttons = [];
+let positions = []; 
+// positions are 2 to 12 elements where if the mouse is over one of the sections, 
+// it will look inside that section, this is due to the fact that we would 
+// otherwise need to check for around 100 hoverables and now only 12
+// which is obviously a great performance increase!
 
 async function GetJSON() {
     let url = 'https://github.com/JrnJ/jeroenj.com/blob/main/Random/MKW/json/items.json';
@@ -150,15 +169,12 @@ async function Main() {
     // Load PositionAtlas
     let positionAtlas = new Image();
     await new Promise(r => positionAtlas.onload = r, positionAtlas.src = "./images/Positions/PositionAtlasStretch.png");
-
-    //DrawFromAtlas(itemAtlas, ItemNameToPositionInItemAtlas("Bob-omb"), new Vector2(0, 0), new Vector2(60, 60));
-
+    
     //Get Racers Amount
     for (let racers = json.length; racers > 0; racers--)
     {
         let placement = json[racers - 1];
-        //console.log("Racers: " + placement.Racers);
-
+        
         // Get Position in Racers
         for (let positions = 0; positions < placement.Positions.length; positions++)
         {
@@ -166,16 +182,16 @@ async function Main() {
 
             let previousHeight = 0;
 
-            // Fill Chart with Item Probability
-            // await DrawImage("./images/Positions/" + position.Position + ".png",
-            //     new Vector2(10 + 110 * positions, 10), new Vector2(80, 80),
-            //     new Vector2(0, 0), new Vector2(80, 80)
-            // );
+            // Draw position
+            let positionTopLeft = new Vector2(10 + 110 * positions, 10);
 
             DrawFromAtlas(positionAtlas, 100, new Vector2(position.Position - 1, 0), 
-                new Vector2(10 + 110 * positions, 10), new Vector2(80, 80),
+                positionTopLeft, new Vector2(80, 80),
                 new Vector2(0, 0), new Vector2(80, 80)
             );
+
+            // Create button
+            buttons.push(new CanvasButton(positionTopLeft, new Vector2(positionTopLeft.x + 80, positionTopLeft.y + 80)));
 
             for (let items = 0; items < position.ItemProbability.length; items++)
             {
@@ -183,11 +199,12 @@ async function Main() {
 
                 const height = (canvasHeight - 100) / 100 * item.Probability;
 
+                // non-cropped image
                 DrawQuad(
                     new Vector2(100 * positions + (positions * 10), previousHeight + 100), new Vector2(100, height), 
                     ItemNameToColor(item.Name));
 
-                // Make sure to crop the image
+                // cropped image
                 // Sorry for double code but its faster
                 if (height < 60)
                 {
@@ -208,6 +225,75 @@ async function Main() {
             }
         }
     }
+
+    // Event Listeners
+    c.addEventListener('mousedown', e => {
+        MouseDown(e.offsetX, e.offsetY);
+    });
+
+    c.addEventListener('mousemove', e => {
+        MouseMove(e.offsetX, e.offsetY); 
+    });
+
+    c.addEventListener('mouseup', e => {
+        MouseUp(e.offsetX, e.offsetY);
+    });
+}
+
+const MouseDown = (x, y) => {
+    isMouseDown = true;
+
+    // Check if on button
+    for (let i = 0; i < buttons.length; i++) {
+        // Check if mouse is inside the bounding box
+        const btn = buttons[i];
+
+        if (IsPointInBox(new Vector2(x, y), btn.leftTop, btn.rightBottom)) {
+            // Change button state
+            buttons[i].down = true;
+        }
+    }
+}
+
+const MouseMove = (x, y) => {
+    // Check if down on button state
+
+    // Check if over an item
+}
+
+const MouseUp = (x,y) => {
+    isMouseDown = false;
+
+    // Check if on button
+    for (let i = 0; i < buttons.length; i++) {
+        // Check if mouse is inside the bounding box
+        const btn = buttons[i];
+
+        if (IsPointInBox(new Vector2(x, y), btn.leftTop, btn.rightBottom)) {
+            if (buttons[i].down == true) {
+                console.log(i);
+                // Load that item probability chart
+            }
+        }
+
+        buttons[i].down = false; 
+    }
+    
+    // Check if on button and if that button state is down
+}
+
+const IsPointInBox = (point, leftTop, rightBottom) => {
+
+    // Check if point is in box
+    if (point.x > leftTop.x && point.x < rightBottom.x)
+    {
+        if (point.y > leftTop.y && point.y < rightBottom.y)
+        {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 const hexToRgbA = (hex) => {
@@ -281,8 +367,9 @@ async function DrawFromAtlas(atlas, spriteWidth, atlasPosition, leftTop, size, s
     //ctx.imageSmoothingEnabled = false; // pixel-perfect or smoothing
     ctx.drawImage(atlas, 
         // Base starting pos, then cut more
-        (atlasPosition.x * spriteWidth) + (spriteWidth / size.x * sourceLeftTop.x), // / size.x * sourceLeftTop.x
-        (atlasPosition.y * spriteWidth) + (spriteWidth / size.y * sourceLeftTop.y), // / size.y * sourceLeftTop.y
+        (atlasPosition.x * spriteWidth) + (spriteWidth / size.x * sourceLeftTop.x), 
+        (atlasPosition.y * spriteWidth) + (spriteWidth / size.y * sourceLeftTop.y),
+        
         // Add to base for final, then cut more
         spriteWidth / size.x * sourceSize.x, 
         spriteWidth / size.y * sourceSize.y,

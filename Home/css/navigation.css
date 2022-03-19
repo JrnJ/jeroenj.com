@@ -58,8 +58,9 @@
 }
 
 .navTabImage {
-    width: 60px;
-    height: 60px;
+    width: 64px;
+    height: 64px;
     bottom: 0;
     margin-top: 8px; /* Some sort of bottom alignment please */
+    image-rendering: pixelated;
 }
