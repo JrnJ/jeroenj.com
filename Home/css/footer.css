@@ -1,9 +1,6 @@
 #footer {
     height: 200px;
     background-color: #282828;
-    bottom: 0;
-    position: absolute;
-    width: 100%;
 }
 
 .github_logo {

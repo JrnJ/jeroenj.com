@@ -1,0 +1,69 @@
+/* .gradient-text {
+    font-size: 36px;
+    background: linear-gradient(to right, #E71016, #FC6B18, #F8C70F, #80C10D, #0BA4F7, #A91DAD);
+    background-clip: text;
+    color: transparent;
+    display: inline-block;
+    font-family: 'Consolas';
+} */
+
+@keyframes gradientAnimation {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+.gradient-text {
+    font-size: 36px;
+    font-family: 'Consolas';
+    background: linear-gradient(to right, #E71016, #FC6B18, #F8C70F, #80C10D, #0BA4F7, #A91DAD, #E71016);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    background-size: 200% 100%;
+    animation: gradientAnimation 4s linear infinite;
+}
+
+#skills {
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 200px);
+    row-gap:    2rem;
+    column-gap: 2rem;
+}
+
+#skills img {
+    background-color: transparent;
+}
+
+.skill-cpp {
+    height: 200px;
+
+    margin-top: 50px;
+}
+
+.skill-opengl {
+    height: 200px;
+    grid-row: span 1;
+    grid-column: span 2;
+}
+
+.skill-cs {
+    height: 200px;
+    margin-left: 30px
+}
+
+.skill-java {
+    height: 200px;
+
+    margin-top: 50px;
+    margin-left: 30px;
+}
+
+.skill-javascript {
+    height: 180px;
+
+    margin-top: 10px;
+    margin-left: 30px;
+}
+

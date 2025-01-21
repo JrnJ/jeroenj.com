@@ -1,14 +1,16 @@
 /*
-    #version: 1.1
+    #version: 1.5
+    #2023 July 17
 */
 
 * {
     font-family: 'Segoe UI', Arial, Helvetica, sans-serif;
     color: white;
+    font-size: 1rem;
 }
 
 body {
-    background-color: #202020;
+    background-color: #121212;
     margin: 0px;
 }
 
@@ -16,53 +18,79 @@ body {
     margin: 10px;
 }
 
-/* <ScrollBar> */
-::-webkit-scrollbar {
-    width: 17px;
+/* <Text> */
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 10px;
 }
 
-::-webkit-scrollbar-track {
-    background: #303030;
+h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin: 0;
 }
 
-::-webkit-scrollbar-thumb {
-    background: #404040;
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 6px;
 }
 
-::-webkit-scrollbar-thumb:hover {
-    background: #484848;
+h4 {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin: 0;
+    margin-bottom: 4px;
 }
-/* </ScrollBar> */
+
+p {
+    word-wrap: normal;
+    margin: 0px;
+}
+/* </Text> */
 
 /* <Button> */
 button {
-    background-color: #252525;
+    background-color: #161616;
     border: none;
-    height: 28px;
-    padding-left: 10px;
-    padding-right: 10px;
+    height: 2rem;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
     border-radius: 2px;
 }
 
 button:hover {
-    background-color: #272727;
+    background-color: #181818;
+    cursor: pointer;
 }
 
 button:active {
-    background-color: #292929;
+    background-color: #202020;
+    cursor: pointer;
 }
 /* </Button> */
 
+/* <Lists> */
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+}
+/* </Lists> */
+
 /* <Input> */
 input {
-    background-color: #252525;
-    border: 1px solid #191919;
+    background-color: #121212;
+    border: 1px solid #787878;
     color: white;
 
-    height: 26px;
+    height: 2rem;
     border-radius: 4px;
-    padding-left: 8px;
-    padding-right: 8px;
+    /* padding-left: 1rem;
+    padding-right: 1rem; */
 }
 
 input:focus {
@@ -70,10 +98,57 @@ input:focus {
 }
 /* </Input> */
 
+/* <RadioInput> */
+.radio-toolbar input[type="radio"] {
+    width: 0px;
+}
+
+.radio-toolbar label {
+    display: inline-block;
+    background-color: #161616;
+    padding: 0.75rem 1rem;
+    border-radius: 2px;
+}
+
+.radio-toolbar label:hover {
+    background-color: #181818;
+    cursor: pointer;
+}
+
+.radio-toolbar input[type="radio"]:checked+label {
+    background-color: #202020;
+    cursor: pointer;
+}
+/* </RadioInput> */
+
+/* <Checkbox Button> */
+.checkbox-toolbar input[type="checkbox"] {
+    width: 0px;
+}
+
+.checkbox-toolbar label {
+    display: inline-block;
+    background-color: #161616;
+    padding: 0.75rem 1rem;
+    border-radius: 2px;
+}
+
+.checkbox-toolbar label:hover {
+    background-color: #181818;
+    cursor: pointer;
+}
+
+.checkbox-toolbar input[type="checkbox"]:checked+label {
+    background-color: #202020;
+    cursor: pointer;
+}
+
+/* <Checkbox Button> */
+
 /* <TextArea> */
 textarea {
-    background-color: #252525;
-    border: 1px solid #191919;
+    background-color: #121212;
+    border: 1px solid #787878;
     color: white;
 }
 /* </TextArea> */

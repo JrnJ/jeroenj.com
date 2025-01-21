@@ -1,0 +1,13 @@
+main {
+    margin: 1rem;
+}
+
+.stackpanel {
+    display: flex;
+    flex-direction: column; /* horizontal */
+}
+
+.dockpanel {
+    display: flex;
+    flex-direction: row; /* vertical */
+}
