@@ -4,7 +4,10 @@ const particleSize = 5;
 const particleGlowRadius = 10;
 
 const totalColors = 100;
-const predefinedColors = [ '#937416', '#B29433', '#DAC471', '#FFFDB8', '#E2BF4E', '#CBA135' ];
+const predefinedColors = [ 
+    'rgba(147, 116, 22, 255)', 'rgba(178, 148, 51, 255)', 'rgba(218, 196, 113, 255)', 
+    'rgba(255, 253, 184, 255)', 'rgba(226, 191, 78, 255)', 'rgba(203, 161, 53, 255)' 
+];
 
 class ParticleArray {
     constructor(x, y, xDirection, yDirection, color) {
@@ -86,6 +89,9 @@ document.addEventListener('DOMContentLoaded', (e) => {
                 if (particle.lifeTime <= 0) {
                     particleArray.splice(i, 1);
                 }
+                if (particle.lifeTime < 0.1) {
+                    particle.color
+                }
 
                 particle.moveInterval -= deltaTime;
                 if (particle.moveInterval <= 0) {
@@ -101,6 +107,26 @@ document.addEventListener('DOMContentLoaded', (e) => {
         }
 
     }, (1000 / 60));
+});
+
+window.addEventListener('resize', (e) => {
+    const dpr = window.devicePixelRatio || 1;
+    const width = window.innerWidth * dpr;
+    const height = window.innerHeight * dpr;
+
+    // Update canvas size on resize
+    canvas.width = width;
+    canvas.height = height;
+    canvas.style.width = `${window.innerWidth}px`;
+    canvas.style.height = `${window.innerHeight}px`;
+
+    context.shadowBlur = particleGlowRadius;
+    context.shadowColor = 'rgba(255, 253, 184, 0.8)'; // Glow color
+    context.shadowOffsetX = 0;
+    context.shadowOffsetY = 0;
+
+    // Reapply scaling
+    context.scale(dpr, dpr);
 });
 
 document.addEventListener('mousemove', (e) => {

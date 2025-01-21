@@ -23,13 +23,12 @@
 * {
     font-family: var(--rpg-font);
     font-size: 1rem;
+    color: white;
 }
 
 body {
     margin: 0px;
-    background: url('./../images/grass.png');
-    background-size: 96px 96px;
-    image-rendering: pixelated;
+    background-color: black;
 }
 
 /* Canvas */
@@ -39,7 +38,6 @@ canvas#sparkles {
     left: 0;
     width: 100%;
     height: 100%;
-    z-index: 9999; /* Ensures it is above other elements */
     pointer-events: none; /* Allows clicks to pass through */
 }
 
@@ -55,6 +53,42 @@ button.rpg {
     border: var(--rpg-border-size) solid var(--rpg-border-color);
 }
 
+/* Background */
+#background {
+    background-image: url('../images/grass.png');
+    background-repeat: repeat;
+    image-rendering: pixelated;
+    z-index: -1;
+
+    height: 100%;
+    width: 100%;
+    background-size: 96px 96px;
+
+    filter: brightness(1);
+}
+/* /Background */
+
+/* WorldOverlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    background-color: none !important;
+}
+
+.above-page {
+    z-index: 9999;
+}
+
+.below-page {
+    z-index: -1;
+}
+/* /WorldOverlay *
+
+/* Help me */
 .rpg-gap-1 {
     gap: 5px;
 }
@@ -90,3 +124,20 @@ button.rpg {
 .rpg-padding-3 {
     padding: 15px;
 }
+
+.rpg-normal-text {
+    font-size: 1rem;
+}
+
+.rpg-medium-text {
+    font-size: 1.5rem;
+}
+
+.rpg-large-text {
+    font-size: 2rem;
+}
+
+.bold {
+    font-weight: bold;
+}
+/* /Help me */
