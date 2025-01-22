@@ -118,7 +118,9 @@ class Player {
         move = move.normalized();
 
         if (move.x !== 0 || move.y !== 0) {
-            this.setPosition(player.x += move.x * this.moveSpeed, player.y += move.y * this.moveSpeed);
+            if (this.dragging === false) {
+                this.setPosition(player.x += move.x * this.moveSpeed, player.y += move.y * this.moveSpeed);
+            }
 
             if (move.x > 0) {
                 this.image.style.transform = 'rotateY(180deg)';
