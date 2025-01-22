@@ -23,6 +23,17 @@ p {
 }
 
 /* Round Slider */
+@keyframes grow {
+    0% { 
+        width: 20px;
+        height: 20px;
+    }
+    100% { 
+        width: 24px;
+        height: 24px;
+    }
+}
+
 .round-slider {
     display: flex;
     justify-content: center;
@@ -43,5 +54,11 @@ p {
     height: 20px;
     border-radius: 100%;
     background-color: white;
+}
+
+.round-slider .thumb.selected {
+    animation-name: grow;
+    animation-duration: 0.2s;
+    animation-fill-mode: forwards;
 }
 /* /Round Slider */

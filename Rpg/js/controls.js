@@ -1,3 +1,5 @@
+import { deltaTime } from './world.js';
+
 export class RangeRounded extends HTMLElement {
     constructor() {
         super();
@@ -21,22 +23,48 @@ export class RangeRounded extends HTMLElement {
         // Append
         this.append(this.thumb);
 
+        const clickSound = new Audio('../audio/interface-click-sound.wav');
+        const selectSound = new Audio('../audio/interface-select-sound.wav');
+        let delay = 0.2;
+
         // Events
         this.thumb.addEventListener('mousedown', (e) => {
             this.mouseDown = true;
             e.preventDefault();
+            clickSound.volume = 0.2;
+            clickSound.play();
+            this.thumb.classList.add('selected');
+        });
+
+        this.thumb.addEventListener('mouseover', (e) => {
+            this.thumb.classList.add('selected');
+        });
+
+        this.thumb.addEventListener('mouseout', (e) => {
+            if (!this.mouseDown) {
+                this.thumb.classList.remove('selected');
+            }
         });
 
         window.addEventListener('mouseup', (e) => {
             if (!this.mouseDown) return;
             this.mouseDown = false;
             e.preventDefault();
+            this.thumb.classList.remove('selected');
         });
 
         window.addEventListener('mousemove', (e) => {
             if (!this.mouseDown) return;
 
             e.preventDefault();
+
+            delay -= deltaTime;
+            if (delay <= 0) {
+                const sound = new Audio('../audio/interface-select-sound.wav');
+                sound.volume = 0.1;
+                sound.play();
+                delay = 0.3;
+            }
 
             const rect = this.getBoundingClientRect();
             const mouseX = e.clientX - rect.left - centerX; // mouse pos relative to circle center

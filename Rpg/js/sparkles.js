@@ -10,6 +10,7 @@ const predefinedColors = [
     'rgba(147, 116, 22, 255)', 'rgba(178, 148, 51, 255)', 'rgba(218, 196, 113, 255)', 
     'rgba(255, 253, 184, 255)', 'rgba(226, 191, 78, 255)', 'rgba(203, 161, 53, 255)' 
 ];
+// #937416, #b29433, #dac471, #fffdcc, #e2bf4e, #cba135
 
 class ParticleArray {
     constructor(x, y, xDirection, yDirection, color) {

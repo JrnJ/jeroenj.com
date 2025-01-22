@@ -18,6 +18,8 @@
 
     --rpg-paper-color: #EABD7C;
     --rpg-font: 'Dogica';
+
+    --author-text-gradient: linear-gradient(to right, #937416, #b29433, #cfaf44, #b99129, #937416);
 }
 
 * {
@@ -29,6 +31,21 @@
 body {
     margin: 0px;
     background-color: black;
+}
+
+@keyframes gradientAnimation {
+    0% { background-position: 200% 0; }
+    100% { background-position: -200% 0; }
+}
+
+.gradient-text {
+    background: var(--author-text-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    background-size: 200% 100%;
+    animation: gradientAnimation 4s linear infinite;
 }
 
 /* Canvas */
