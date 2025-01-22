@@ -1,4 +1,4 @@
-class InputHandler {
+export class InputHandler {
     constructor() {
         this.wDown = false;
         this.aDown = false;
@@ -48,7 +48,7 @@ class InputHandler {
     }
 }
 
-class Vector2 {
+export class Vector2 {
     constructor(x, y) {
         this.x = x;
         this.y = y;
@@ -64,7 +64,7 @@ class Vector2 {
     }
 }
 
-class Player {
+export class Player {
     constructor(x, y) {
         this.x = x;
         this.y = y;
@@ -119,7 +119,7 @@ class Player {
 
         if (move.x !== 0 || move.y !== 0) {
             if (this.dragging === false) {
-                this.setPosition(player.x += move.x * this.moveSpeed, player.y += move.y * this.moveSpeed);
+                this.setPosition(this.x += move.x * this.moveSpeed, this.y += move.y * this.moveSpeed);
             }
 
             if (move.x > 0) {
@@ -141,28 +141,6 @@ class Player {
 
     }
 }
-
-const player = new Player(31, 31);
-const world = document.querySelector('#world');
-
-document.addEventListener('DOMContentLoaded', () => {
-    world.append(player.element);
-
-    let previousTime = performance.now();
-    let currentTime = 0;
-    let deltaTime = 0;
-
-    setInterval(() => {
-        if (mouseMoved === false) return;
-
-        // 0. Timing
-        currentTime = performance.now();
-        deltaTime = (currentTime - previousTime) / 1000;
-        previousTime = currentTime;
-
-        player.update(deltaTime);
-    }, 1000 / 60);
-});
 
 function createPlayerElement(player) {
     const playerElement = document.createElement('div');

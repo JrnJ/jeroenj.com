@@ -1,3 +1,5 @@
+import { mouseMoved } from './controls.js';
+
 const particleLifetime = 0.5;
 const particleMoveInterval = 0.15;
 const particleSize = 5;
@@ -29,7 +31,6 @@ const context = canvas.getContext('2d');
 
 let mouseX = 0;
 let mouseY = 0;
-let mouseMoved = false;
 
 let particleArray = [];
 let particleColors = [];
@@ -131,10 +132,6 @@ window.addEventListener('resize', (e) => {
     // Reapply scaling
     context.scale(dpr, dpr);
 });
-
-document.addEventListener('mousemove', (e) => {
-    mouseMoved = true;
-}, { once: true });
 
 document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;

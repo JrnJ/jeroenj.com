@@ -1,4 +1,4 @@
-class RangeRounded extends HTMLElement {
+export class RangeRounded extends HTMLElement {
     constructor() {
         super();
 
@@ -72,6 +72,12 @@ class RangeRounded extends HTMLElement {
         return 1 / 360 * normalized;
     }
 }
+
+export let mouseMoved = false;
+
+document.addEventListener('mousemove', (e) => {
+    mouseMoved = true;
+}, { once: true });
 
 customElements.define('range-rounded', RangeRounded);
 
