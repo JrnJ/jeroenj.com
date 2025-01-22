@@ -24,7 +24,7 @@
     <script src="./js/controls.js" defer></script>
 
     <script src="./js/slime.js" defer></script>
-    <script src="./js/player.js" defer></script>
+    <!-- <script src="./js/player.js" defer></script> -->
     <script src="./js/world.js" defer></script>
 </head>
 
@@ -40,12 +40,12 @@
     <!-- /Sparkle Canvas -->
 
     <!-- WorldOverlay -->
-    <div id="overlay" class="overlay"></div>
+    <div id="world" class="overlay"></div>
     <!-- /WorldOverlay -->
 
     <!-- Content -->
     <main>
-        <div class="stackpanel rpg-gap-3">
+        <div class="stackpanel rpg-gap-3" style="width: fit-content">
             <!-- Profile -->
             <div class="container rpg dockpanel rpg-gap-2 rpg-padding-2">
                 <div style="width: 66px; height: 66px;">
@@ -56,13 +56,13 @@
                     <div class="dockpanel rpg-gap-1">
                         <div class="dockpanel">
                             <div style="width: 14px; height: 14px;">
-                                <img src="./images/heart.png" class="contained-img">
+                                <img src="./images/heart.png" class="contained-img img-pixelated">
                             </div>
                             <span style="color: #FC3A3A">(22)</span>
                         </div>
                         <div class="dockpanel">
                             <div style="width: 14px; height: 14px;">
-                                <img src="./images/mana.png" class="contained-img">
+                                <img src="./images/mana.png" class="contained-img img-pixelated">
                             </div>
                             <span style="color: cyan">(100)</span>
                         </div>
@@ -74,17 +74,20 @@
             <!-- AboutMe -->
             <div class="container stackpanel rpg rpg-padding-2 rpg-gap-1">
                 <h1>About me</h1>
-                <p>I am Jeroen. I enjoy programming and playing games!</p>
+                <p>Hii, I'm Jeroen. I enjoy programming and playing games!</p>
 
                 <h1>Controls</h1>
                 <p>Day/Night</p>
-                <input type="range" min="0.1" max="1" step="0.01" value="1" id="dayNightSlider">
 
-                <div class="round-slider">
-                    <div class="thumb"></div>
-                </div>
+                <range-rounded id="dayNightSlider">
+                    <img src="./images/sun_moon.png" class="img-pixelated" style="width: 60%; height: 60%;">
+                </range-rounded>
             </div>
             <!-- /AboutMe -->
+
+            <div class="container rpg rpg-padding-2" style="width: fit-content;">
+                <p id="timeDisplay"></p>
+            </div>
         </div>
     </main>
     <!-- /Content -->

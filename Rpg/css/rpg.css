@@ -88,6 +88,13 @@ button.rpg {
 }
 /* /WorldOverlay *
 
+/* Entities */
+.player {
+    width: 64px;
+    height: 64px;
+}
+/* /Entities */
+
 /* Help me */
 .rpg-gap-1 {
     gap: 5px;
@@ -139,5 +146,9 @@ button.rpg {
 
 .bold {
     font-weight: bold;
+}
+
+.img-pixelated {
+    image-rendering: pixelated;
 }
 /* /Help me */
