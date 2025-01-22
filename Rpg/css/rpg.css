@@ -90,8 +90,11 @@ button.rpg {
 
 /* Entities */
 .player {
-    width: 64px;
-    height: 64px;
+    position: absolute;
+    width: 66px;
+    height: 66px;
+    pointer-events: all;
+    user-select: none;
 }
 /* /Entities */
 
@@ -150,5 +153,10 @@ button.rpg {
 
 .img-pixelated {
     image-rendering: pixelated;
+}
+
+.img-no-select {
+    user-select: none;
+    pointer-events: none;
 }
 /* /Help me */

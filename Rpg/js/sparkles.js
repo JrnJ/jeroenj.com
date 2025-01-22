@@ -29,6 +29,7 @@ const context = canvas.getContext('2d');
 
 let mouseX = 0;
 let mouseY = 0;
+let mouseMoved = false;
 
 let particleArray = [];
 let particleColors = [];
@@ -60,6 +61,8 @@ document.addEventListener('DOMContentLoaded', (e) => {
     let currentTime = 0;
     let deltaTime = 0;
     setInterval(() => {
+        if (mouseMoved === false) return;
+
         // 0. Timing
         currentTime = performance.now();
         deltaTime = (currentTime - previousTime) / 1000;
@@ -128,6 +131,10 @@ window.addEventListener('resize', (e) => {
     // Reapply scaling
     context.scale(dpr, dpr);
 });
+
+document.addEventListener('mousemove', (e) => {
+    mouseMoved = true;
+}, { once: true });
 
 document.addEventListener('mousemove', (e) => {
     mouseX = e.clientX;

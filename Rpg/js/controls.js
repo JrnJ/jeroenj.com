@@ -93,7 +93,6 @@ document.addEventListener('DOMContentLoaded', (e) => {
         document.querySelector('#dayNightSlider').addEventListener('input', (e) => {
 
             currentBrightness = mapBrightness(e.detail);
-            console.log(e.detail, currentBrightness);
             // lerpBrightness(); // TODO: breaks due to the lerpSpeed being too fast, ill fix it later
             background.style.filter = `brightness(${currentBrightness})`;
         });
