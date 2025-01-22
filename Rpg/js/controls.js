@@ -24,7 +24,7 @@ export class RangeRounded extends HTMLElement {
         this.append(this.thumb);
 
         const clickSound = new Audio('../audio/interface-click-sound.wav');
-        const selectSound = new Audio('../audio/interface-select-sound.wav');
+        const hoverSound = new Audio('../audio/interface-select-sound.wav');
         let delay = 0.2;
 
         // Events
@@ -38,6 +38,8 @@ export class RangeRounded extends HTMLElement {
 
         this.thumb.addEventListener('mouseover', (e) => {
             this.thumb.classList.add('selected');
+            hoverSound.volume = 0.05;
+            hoverSound.play();
         });
 
         this.thumb.addEventListener('mouseout', (e) => {
