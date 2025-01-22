@@ -26,6 +26,7 @@ export class RangeRounded extends HTMLElement {
         const clickSound = new Audio('../audio/interface-click-sound.wav');
         const hoverSound = new Audio('../audio/interface-select-sound.wav');
         let delay = 0.2;
+        this.previousTick = 0;
 
         // Events
         this.thumb.addEventListener('mousedown', (e) => {
@@ -60,12 +61,12 @@ export class RangeRounded extends HTMLElement {
 
             e.preventDefault();
 
-            delay -= deltaTime;
-            if (delay <= 0) {
+            if (Math.abs(this.previousTick - this.value) > 0.05) {
+                this.previousTick = this.value;
+
                 const sound = new Audio('../audio/interface-select-sound.wav');
                 sound.volume = 0.1;
                 sound.play();
-                delay = 0.3;
             }
 
             const rect = this.getBoundingClientRect();
