@@ -23,8 +23,8 @@ export class RangeRounded extends HTMLElement {
         // Append
         this.append(this.thumb);
 
-        const clickSound = new Audio('../audio/interface-click-sound.wav');
-        const hoverSound = new Audio('../audio/interface-select-sound.wav');
+        const clickSound = new Audio('./../audio/interface-click-sound.wav');
+        const hoverSound = new Audio('./../audio/interface-select-sound.wav');
         let delay = 0.2;
         this.previousTick = 0;
 
@@ -64,7 +64,7 @@ export class RangeRounded extends HTMLElement {
             if (Math.abs(this.previousTick - this.value) > 0.05) {
                 this.previousTick = this.value;
 
-                const sound = new Audio('../audio/interface-select-sound.wav');
+                const sound = new Audio('./../audio/interface-select-sound.wav');
                 sound.volume = 0.1;
                 sound.play();
             }
