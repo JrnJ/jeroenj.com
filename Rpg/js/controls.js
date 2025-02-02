@@ -23,15 +23,8 @@ export class RangeRounded extends HTMLElement {
         // Append
         this.append(this.thumb);
 
-        const click2Sound = new Audio('/audio/interface-click-sound.wav');
-        const click3Sound = new Audio('./audio/interface-click-sound.wav');
-        const click4Sound = new Audio('../audio/interface-click-sound.wav');
-        const click5Sound = new Audio('./../audio/interface-click-sound.wav');
-        const click6Sound = new Audio('../audio/interface-click-sound.wav');
-        const click7Sound = new Audio('../../audio/interface-click-sound.wav');
-
-        const clickSound = new Audio('./../audio/interface-click-sound.wav');
-        const hoverSound = new Audio('./../audio/interface-select-sound.wav');
+        const clickSound = new Audio('../audio/interface-click-sound.wav');
+        const hoverSound = new Audio('../audio/interface-select-sound.wav');
         let delay = 0.2;
         this.previousTick = 0;
 
