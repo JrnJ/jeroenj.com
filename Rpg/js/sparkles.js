@@ -68,7 +68,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
         // 0. Timing
         currentTime = performance.now();
         deltaTime = (currentTime - previousTime) / 1000;
-        previousTime = currentTime;
+        previousTime = currentTime; 
 
         // 1. Clear
         {

@@ -6,11 +6,22 @@ const particleSize = 5;
 const particleGlowRadius = 10;
 
 const totalColors = 100;
-const predefinedColors = [ 
-    'rgba(147, 116, 22, 255)', 'rgba(178, 148, 51, 255)', 'rgba(218, 196, 113, 255)', 
-    'rgba(255, 253, 184, 255)', 'rgba(226, 191, 78, 255)', 'rgba(203, 161, 53, 255)' 
-];
+// const predefinedColors = [ 
+//     'rgba(147, 116, 22, 255)', 'rgba(178, 148, 51, 255)', 'rgba(218, 196, 113, 255)', 
+//     'rgba(255, 253, 184, 255)', 'rgba(226, 191, 78, 255)', 'rgba(203, 161, 53, 255)' 
+// ];
 // #937416, #b29433, #dac471, #fffdcc, #e2bf4e, #cba135
+// const glowColor = 'rgba(255, 253, 184, 0.8)';
+
+const predefinedColors = [ 
+    'rgba(255, 255, 255, 255)',
+    'rgba(238, 238, 238, 255)',
+    'rgba(210, 210, 210, 255)',
+    'rgba(200, 200, 200, 255)',
+    'rgba(190, 190, 190, 255)',
+    'rgba(180, 180, 180, 255)',
+];
+const glowColor = 'rgba(255, 255, 255, 0.8)';
 
 class ParticleArray {
     constructor(x, y, xDirection, yDirection, color) {
@@ -27,6 +38,26 @@ class ParticleArray {
     }
 }
 
+// TODO
+class ParticleSpawner {
+    constructor(colors, glowColor) {
+        this.colors = colors;
+        this.glowColor = glowColor;
+    }
+
+    update() {
+
+    }
+
+    resume() {
+
+    }
+
+    pause() {
+
+    }
+}
+
 const canvas = document.getElementById('sparkles');
 const context = canvas.getContext('2d');
 
@@ -38,24 +69,7 @@ let particleColors = [];
 let atColor = 0;
 
 document.addEventListener('DOMContentLoaded', (e) => {
-    const dpr = window.devicePixelRatio || 1;
-    const width = window.innerWidth * dpr;
-    const height = window.innerHeight * dpr;
-
-    // 1 canvas unit is now always one pixel
-    canvas.width = width;
-    canvas.height = height;
-    canvas.style.width = `${window.innerWidth}px`;
-    canvas.style.height = `${window.innerHeight}px`;
-
-    // Particle glow effect (this can also be done every frame, but the particles are "static" colors)
-    context.shadowBlur = particleGlowRadius;
-    context.shadowColor = 'rgba(255, 253, 184, 0.8)'; // Glow color
-    context.shadowOffsetX = 0;
-    context.shadowOffsetY = 0;
-
-    // Scale the context
-    context.scale(dpr, dpr);
+    updateCanvasSize();
     generateColors();
 
     // Create a render loop
@@ -71,9 +85,7 @@ document.addEventListener('DOMContentLoaded', (e) => {
         previousTime = currentTime;
 
         // 1. Clear
-        {
-            context.clearRect(0, 0, canvas.width, canvas.height);
-        }
+        context.clearRect(0, 0, canvas.width, canvas.height);
 
         // 2. Input (Not relevant here)
         // 3. Update => 4. Draw
@@ -115,6 +127,15 @@ document.addEventListener('DOMContentLoaded', (e) => {
 });
 
 window.addEventListener('resize', (e) => {
+    updateCanvasSize();
+});
+
+document.addEventListener('mousemove', (e) => {
+    mouseX = e.clientX;
+    mouseY = e.clientY;
+});
+
+function updateCanvasSize() {
     const dpr = window.devicePixelRatio || 1;
     const width = window.innerWidth * dpr;
     const height = window.innerHeight * dpr;
@@ -126,18 +147,13 @@ window.addEventListener('resize', (e) => {
     canvas.style.height = `${window.innerHeight}px`;
 
     context.shadowBlur = particleGlowRadius;
-    context.shadowColor = 'rgba(255, 253, 184, 0.8)'; // Glow color
+    context.shadowColor = glowColor; // Glow color
     context.shadowOffsetX = 0;
     context.shadowOffsetY = 0;
 
     // Reapply scaling
     context.scale(dpr, dpr);
-});
-
-document.addEventListener('mousemove', (e) => {
-    mouseX = e.clientX;
-    mouseY = e.clientY;
-});
+}
 
 function drawParticle(posX, posY, size, color) {
     context.fillStyle = color;
