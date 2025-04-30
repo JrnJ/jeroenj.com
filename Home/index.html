@@ -2,80 +2,37 @@
 <html lang="en-US">
 
 <head>
-    <title>Jeroen</title>
+    <title>Home</title>
     <meta charset="UTF-8">
 
-    <link rel="stylesheet" type="text/css" href="./../css/main.css" />
-    <link rel="stylesheet" type="text/css" href="./../css/navigation.css" />
+    <!-- Mobile -->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <link rel="stylesheet" type="text/css" href="./css/footer.css" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Title" />
+    <meta property="og:description" content="Personal" />
+    <meta property="og:url" content="https://jeroenj.com" />
+    <meta data-react-helmet="true" name="theme-color" content="#FF6600" />
 
-    <link rel="stylesheet" type="text/css" href="./css/index.css" />
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+
+    <!-- Scripts -->
+    <script src="./js/sparkles.js" type="module"></script>
+    <script src="./js/world.js" type="module"></script>
 </head>
 
 <body>
+    <!-- Sparkle Canvas -->
+    <canvas id="sparkles" class="above-page"></canvas>
+    <!-- /Sparkle Canvas -->
 
-    <!-- Navigation | v1.2 -->
-    <div id="navigation">
-        <div id="navBackground"></div>
-
-        <div id="navContent">
-            <div class="navImageBorder">
-                <a href="https://jeroenj.com/Home"><button class="navImage"></button></a>
-                <span class="navSiteInfo">
-                    <span>
-                        <span class="navTitle">Jeroen Jochems</span>
-                        <br><span class="navTitle">Hello!</span>
-                        <br><a href="https://github.com/JrnJ"
-                            style="color: #FF6600; text-decoration: none; font-weight: bold;">By JeroenJ</a>
-                    </span>    
-                </span>
-                <span style="background-color: green;">
-                    
-                </span>
-            </div>
+    <main>
+        <div class="textContainer">
+            <p class="home">Jeroen</p>
         </div>
-    </div>
-    <!-- /Navigation | v1.2 -->
+    </main>
 
-    <!-- Body -->
-    <div id="body">
-        <div>
-            <div class="gradient-text">Jeroen</div><br>
-            <h1>Skills</h1>
-            <div id="skills">
-                <img class="skill-cpp" src="./images/logos/Cpp.png">
-                <img class="skill-opengl" src="./images/logos/OpenGL.png">
-                <img class="skill-java" src="./images/logos/Java.png">
-                <img class="skill-cs" src="./images/logos/cs.png">
-                <img class="skill-javascript" src="./images/logos/Javascript.png">
-            </div>
-        </div>
-
-        <div>
-            <h1>Projects</h1>
-        </div>
-
-    </div>
-    <!-- Body -->
-
-    <!-- Footer -->
-    <div id="footer">
-        <div style="margin: 10px;">
-            Find Me:
-            <table>
-                <tr>
-                    <td>
-                        <a href="https://github.com/JrnJ">
-                            <img src="images/socials/GitHub-Mark-Light-120px-plus.png" class="github_logo">
-                        </a>
-                    </td>
-                    <td>Github</td>
-                </tr>
-            </table>
-        </div>
-    </div>
-    <!-- /Footer -->
 </body>
 
 </html>

@@ -1,9 +1,59 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('/fonts/Roboto-VariableFont_wdth,wght.ttf') format('truetype');
+    font-weight: 100 900;
+    font-stretch: 75% 100%;
+    font-style: normal;
+}
+
 * {
     color: White;
-    font-family: 'Consolas', 'Arial';
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
 }
 
 body {
-    background-color: #2d2d2d;
+    background-color: #000000;
     margin: 0px;
 }
+
+.textContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.home {
+    font-size: 6rem;
+    text-shadow: 0px 0px 1em rgba(255, 217, 217, 0.25);
+}
+
+canvas#sparkles {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /* Allows clicks to pass through */
+}
+
+/* WorldOverlay */
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    pointer-events: none;
+    background-color: none !important;
+}
+
+.above-page {
+    z-index: 9999;
+}
+
+.below-page {
+    z-index: -1;
+}
+/* /WorldOverlay *
